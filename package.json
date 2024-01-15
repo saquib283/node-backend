@@ -4,7 +4,7 @@
   "description": "This is my backend learning app for learning backend development.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "type": "module",
   "repository": {
@@ -25,5 +25,10 @@
   "devDependencies": {
     "nodemon": "^3.0.2",
     "prettier": "^3.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.4"
   }
 }
