@@ -1,0 +1,28 @@
+{
+  "name": "my-backend",
+  "version": "1.0.0",
+  "description": "This is my backend learning app for learning backend development.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saquib283/my-backend.git"
+  },
+  "keywords": [
+    "mybackend",
+    "backend",
+    "backend-development"
+  ],
+  "author": "MD REHAN SAQUIB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saquib283/my-backend/issues"
+  },
+  "homepage": "https://github.com/saquib283/my-backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
